@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git init (in the directory you wish to create the git repository in)
+git status
+
+You create a git repository within a directory.
+Now you can start adding files from your directory to the git repository.
+Once files are added to git, you can start committing changes to them, and keep track of the changes in your files.
+############################################################################
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+You add files FROM working direcotory to the staging area, before you commit them to the git repository.
+Kinda like an intermediate env before you finish working with them.
+Possible advantage: Keep a temp version of file in case you forget to commit
+or your computer shuts down or whatever?
+
