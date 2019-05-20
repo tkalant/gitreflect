@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+1. You can easily check what was removed and what was added, on top of each other, making comparison quicker.
+2. Basically easier on the human eye, we recognize patterns very well. 
+##################################################
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1. Trace back what you changed, to know where the new bugs are coming from.
+2. You can have access to the evolution of your ideas. It is easier to go back and change something if you change your mind. 
+3. If collaboraters/clients don't like something, you can always simply go back to older versions.
+Not having to re-write code.
+4. Have the confidence to test new things and play around with ideas, because you know everything is safe and you always have the option to go back.
+###################################################
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+PRO: You can commit whenever it makes logical sense, and you make sure your code runs and gives an output, when you commit it. 
+CON: You might forget to commit.
+different people choose to commit on different basis. So to make a collobarative project, you might disagree and get confused going over others' commits.
+####################################################
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+if they are all in one repository, it makese sense to assume they are functionally dependendent, so it makes sense to save versions of all file, in case the user forgets or misses to commit one file.
+Interdependencies between different google docs is not a given.
+####################################################
+How can you use the commands git log and git diff to view the history of files?
+USING got log:
+
+git log is the command used to view the committ history of a repository. 
+You have to arrow down to view the entire history.
+
+USING git diff:
+git diff first_committ_ID second_committ_ID
+
+first and second refer to chronological order. 
+you can see the differences between two commits with this command
+####################################################
+How might using version control make you more confident to make changes that could break something?
+
+You can always "check out" an older commit and run the code.
+This means you can explore your ideas without the fear of fucking everything up.
+All is safe.
+git check out commit_id
+mi raccomando: if you check out an older commit, then run git log, you will not see the commits done after your checked-out commit. 
+######################################################
+What do you want to use GIT for?
+
+i want to use git repositories to start a project and have it be public.
