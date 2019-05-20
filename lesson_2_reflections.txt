@@ -12,4 +12,10 @@ You add files FROM working direcotory to the staging area, before you commit the
 Kinda like an intermediate env before you finish working with them.
 Possible advantage: Keep a temp version of file in case you forget to commit
 or your computer shuts down or whatever?
+############################################################################
+How can you use the staging area to make sure you have one commit per logical change?
+
+Any file that has been changed can staged.
+Any change that leads to a logical change, can then committed from the staging area to the git repository.
+
 
