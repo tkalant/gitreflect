@@ -33,3 +33,8 @@ How do the diagrams help you visualize the branch structure?
 
 If you draw it out, you will have a better understanding of where you are,
 and what to do not to lose any commits you make.
+#########################################################
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Create a new commit, indicating the merge. 
+The commit history of both branches are available on logging the merged branch.
