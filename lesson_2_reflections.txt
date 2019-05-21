@@ -18,4 +18,18 @@ How can you use the staging area to make sure you have one commit per logical ch
 Any file that has been changed can staged.
 Any change that leads to a logical change, can then committed from the staging area to the git repository.
 
+#########################################################
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+if you want to start a new experimental project on your current project
+define a different mode or version of your code and what it does.
+Different piece of work, or context-switching
+Master How do the diagrams help you visualize the branch structure?
+
+branch: can be the public branch, always runs and doesn't break
+other branches: work in progress, dev branch, experimental branch
+########################################################
+How do the diagrams help you visualize the branch structure?
+
+If you draw it out, you will have a better understanding of where you are,
+and what to do not to lose any commits you make.
